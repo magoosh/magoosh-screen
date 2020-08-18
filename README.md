@@ -20,4 +20,4 @@ We noticed that there’s no protection against an ingredient existing in our da
 
 ## Exercise #4
 
-We haven't written any tests! Write some basic tests for this project, mainly focusing on convering the code you wrote for the above exercises. Full test coverage is not necessary, so only focus on what tests you think are the most useful.
+We haven't written any tests! Write some basic tests for this project, mainly focusing on convering the code you wrote for the above exercises. Use whatever testing framework you like. Full test coverage is not necessary, so only focus on what tests you think are the most useful.
