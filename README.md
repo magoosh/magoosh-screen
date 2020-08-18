@@ -12,11 +12,11 @@ Implement a feature to add new ingredients. Provide the user with a simple inter
 
 ## Exercise #2
 
-We’ve received a list of ingredients that we need to import into our database. We expect this to be a rare occurence, such that we don't want to implement a feature on the site to accomplish this, but instead want a reusable process to occasionally import ingredients. The list is in a text file, named ingredients.txt. Implement a process to import this data. 
+We’ve received a list of ingredients that we need to import into our database. We expect this to be a rare occurence, such that we don't need to implement a feature on the site to accomplish this, but instead just need a reusable process to occasionally import ingredients. The list is in a text file, named ingredients.txt. Implement a process to import this data. 
 
 ## Exercise #3
 
-We noticed that there’s no protection against an ingredient existing in our database twice. Implement changes to the project, and to your solution from Exercise #1, to ensure duplicate ingredients are not allowed. We also need to ensure duplicate ingredients are removed from the database.
+We noticed that there’s no protection against an ingredient existing in our database more than once. Implement changes to the project, and to your solution from Exercise #1 if appropriate, to ensure duplicate ingredients are not allowed. We also need to ensure any duplicate ingredients are removed from the database.
 
 ## Exercise #4
 
