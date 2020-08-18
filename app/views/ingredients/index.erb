@@ -5,3 +5,9 @@ Ingredients
     <li><%= ingredient.name %></li>
   <% end %>
 </ul>
+
+<%= form_with(url: "/ingredients", method: "post") do %>
+  <%= label_tag(:ingredient, "Ingredient:") %>
+  <%= text_field_tag(:ingredient) %>
+  <%= submit_tag("Add") %>
+<% end %>

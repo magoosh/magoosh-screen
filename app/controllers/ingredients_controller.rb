@@ -6,4 +6,10 @@ class IngredientsController < ActionController::Base
     render :index
   end
 
+  def create
+    Ingredient.create(name: params[:ingredient])
+
+    redirect_to ingredients_url
+  end
+
 end
