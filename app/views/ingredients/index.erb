@@ -4,4 +4,12 @@ Ingredients
   <% @ingredients.each do |ingredient| %>
     <li><%= ingredient.name %></li>
   <% end %>
-</ul>
+<ul>
+
+<div>
+  <form action = "/ingredients" method = 'post'>
+    <label>Name</label>
+    <input></input>
+    <button>Create</button>
+  </form>
+</div>

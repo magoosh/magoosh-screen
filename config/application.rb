@@ -15,5 +15,7 @@ module MagooshScreen
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+    
+    config.hosts << "46bc503f0bcc4eba9fae5d4cf696976c.vfs.cloud9.us-east-1.amazonaws.com"
   end
 end
