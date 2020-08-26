@@ -18,6 +18,18 @@ We’ve received a list of ingredients that we need to import into our database.
 
 The next feature we're planning to implement in this project is Recipes. A recipe consists of a name, a list of ingredients with amounts, and steps. Design and describe the data model you would suggest for this feature.
 
+
+Steps
+
+1. Create a db table named Recipes.
+2. Add name as a string to Recipes.
+3. Add a third table "Recipe_ingredients" with amount as a float, and unit as String.
+4. Add relationship (has_many through): Ingredient <- "Recipe_ingredients" -> Recipe
+5. Create a new db table named Steps
+6. Add attribute "Description" as a String.
+7. Add attribute "Order" as an Integer.
+8. Add relationship (belongs_to): Steps -> Recipe
+
 ## Exercise #4
 
 We noticed that there’s no protection against an ingredient existing in our database more than once. Implement changes to the project, and to your solution from Exercises #1 and #2, if appropriate, to ensure duplicate ingredients are not allowed. We also need to ensure any duplicate ingredients are removed from the production database.
