@@ -1,5 +1,16 @@
 Ingredients
 
+<%= form_for :post do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+
 <ul>
   <% @ingredients.each do |ingredient| %>
     <li><%= ingredient.name %></li>
