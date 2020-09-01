@@ -2,7 +2,7 @@
 
 ## Scenario
 
-We’re building a new Food and Recipe web application! We’ve just started, and we’re still working on the basics. Right now we just have a page that lists all the ingredients in our database, and we need to progress on a few more initial features.
+We’re building a new Food and Recipe web application! We’ve just started, and  wwe’re still working on the basics. Right now we just have a page that lists all the ingredients in our database, and we need to progress on a few more initial features.
 
 For each exercise, implement a solution in this Ruby on Rails project. Write a short description (in this file is fine) of your approach, and discuss any other alternative approaches you considered, and why you went with your chosen approach. 
 
@@ -17,6 +17,21 @@ We’ve received a list of ingredients that we need to import into our database.
 ## Exercise #3
 
 The next feature we're planning to implement in this project is Recipes. A recipe consists of a name, a list of ingredients with amounts, and steps. Design and describe the data model you would suggest for this feature.
+
+
+ingredient_recipe
+ id
+ -ingredient_id
+ -recipe_id
+ -amount
+ -unit
+ 
+ steps
+  -step_number -> 1
+  -recipe_id
+  -step -> "Add X to Y"
+  -use_ingredient_recipe -> ingredient_recipe_id
+ 
 
 ## Exercise #4
 
